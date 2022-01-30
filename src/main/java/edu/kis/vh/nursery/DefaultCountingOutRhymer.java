@@ -8,9 +8,9 @@ public class DefaultCountingOutRhymer {
 
 	private static final int NUMBERS_MAX_LENGTH = 12;
 
-	private int[] numbers = new int[NUMBERS_MAX_LENGTH];
+	private final int[] numbers = new int[NUMBERS_MAX_LENGTH];
 
-	public int total = EMPTY_TOTAL;
+	public final int total = EMPTY_TOTAL;
 
 	public void countIn(int in) {
 		if (!isFull())
