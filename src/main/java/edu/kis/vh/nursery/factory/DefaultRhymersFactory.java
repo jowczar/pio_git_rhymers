@@ -22,6 +22,7 @@ public class DefaultRhymersFactory implements RhymersFactory {
 	}
 
 	/**
+	 * TODO: getFalseRhymer is same as getStandardRhymer, it should differ otherwise it is redundant
 	 * getFalseRhymer returns new object of class DefaultCountingOutRhymer
 	 */
 	@Override

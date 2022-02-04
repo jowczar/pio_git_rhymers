@@ -3,6 +3,7 @@ package edu.kis.vh.nursery.list;
 public class IntLinkedList {
 
 	private Node lastNode;
+	// TODO: this variable is not used at all, it can be removed
 	private int i;
 
 	public void push(int i) {
@@ -19,6 +20,8 @@ public class IntLinkedList {
 		return lastNode == null;
 	}
 
+	// TODO: this method does not make sense in this implementation (it is not used, IntLinkedList does not 
+	// implement any interface or anything that makes it obligatory to implement this isFull method with no use)
 	public boolean isFull() {
 		return false;
 	}
